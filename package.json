@@ -1,0 +1,13 @@
+{
+  "name": "emoji-restriction-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Androz2091/emoji-restriction-bot.git",
+  "author": "Androz 2091 <androz2091@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5"
+  }
+}
