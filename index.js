@@ -36,8 +36,6 @@ client.on('messageReactionAdd', async (reaction, user) => {
         '👑 🧙🏻‍♀️ 🧙🏻‍♂️ 🧝🏻‍♂️ 🧝🏻‍♀️ 🧛🏻‍♂️ 🧛🏻‍♀️ 🦄 🐴 🐉'
     ].map(e => e.split(' ')).flat();
 
-    console.log(allowed, allowed.includes(reaction.emoji.name));
-
     if (!allowed.includes(reaction.emoji.name)) {
         reaction.users.remove(user);
     }
